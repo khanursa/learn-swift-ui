@@ -13,6 +13,11 @@
 		6874A0E225DA5165005B48AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6874A0E125DA5165005B48AB /* Preview Assets.xcassets */; };
 		6874A0ED25DA5166005B48AB /* leasson_YTAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874A0EC25DA5166005B48AB /* leasson_YTAPPTests.swift */; };
 		6874A0F825DA5166005B48AB /* leasson_YTAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874A0F725DA5166005B48AB /* leasson_YTAPPUITests.swift */; };
+		6874A10925DA648D005B48AB /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874A10825DA648D005B48AB /* HomeScreen.swift */; };
+		6874A10E25DA65C8005B48AB /* ExploreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874A10D25DA65C8005B48AB /* ExploreScreen.swift */; };
+		6874A11325DA6654005B48AB /* CreateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874A11225DA6654005B48AB /* CreateScreen.swift */; };
+		6874A11825DA66BD005B48AB /* SubScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874A11725DA66BD005B48AB /* SubScreen.swift */; };
+		6874A11D25DA673C005B48AB /* LibraryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874A11C25DA673C005B48AB /* LibraryScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,7 @@
 /* Begin PBXFileReference section */
 		6874A0D725DA5163005B48AB /* leasson_YTAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leasson_YTAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6874A0DA25DA5163005B48AB /* leasson_YTAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leasson_YTAPPApp.swift; sourceTree = "<group>"; };
-		6874A0DC25DA5163005B48AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6874A0DC25DA5163005B48AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6874A0DE25DA5165005B48AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6874A0E125DA5165005B48AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6874A0E325DA5165005B48AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +50,11 @@
 		6874A0F325DA5166005B48AB /* leasson_YTAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leasson_YTAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6874A0F725DA5166005B48AB /* leasson_YTAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leasson_YTAPPUITests.swift; sourceTree = "<group>"; };
 		6874A0F925DA5166005B48AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6874A10825DA648D005B48AB /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		6874A10D25DA65C8005B48AB /* ExploreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreScreen.swift; sourceTree = "<group>"; };
+		6874A11225DA6654005B48AB /* CreateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreen.swift; sourceTree = "<group>"; };
+		6874A11725DA66BD005B48AB /* SubScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubScreen.swift; sourceTree = "<group>"; };
+		6874A11C25DA673C005B48AB /* LibraryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				6874A0DE25DA5165005B48AB /* Assets.xcassets */,
 				6874A0E325DA5165005B48AB /* Info.plist */,
 				6874A0E025DA5165005B48AB /* Preview Content */,
+				6874A10825DA648D005B48AB /* HomeScreen.swift */,
+				6874A10D25DA65C8005B48AB /* ExploreScreen.swift */,
+				6874A11225DA6654005B48AB /* CreateScreen.swift */,
+				6874A11725DA66BD005B48AB /* SubScreen.swift */,
+				6874A11C25DA673C005B48AB /* LibraryScreen.swift */,
 			);
 			path = leasson_YTAPP;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6874A11D25DA673C005B48AB /* LibraryScreen.swift in Sources */,
 				6874A0DD25DA5163005B48AB /* ContentView.swift in Sources */,
+				6874A11825DA66BD005B48AB /* SubScreen.swift in Sources */,
 				6874A0DB25DA5163005B48AB /* leasson_YTAPPApp.swift in Sources */,
+				6874A10E25DA65C8005B48AB /* ExploreScreen.swift in Sources */,
+				6874A11325DA6654005B48AB /* CreateScreen.swift in Sources */,
+				6874A10925DA648D005B48AB /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
